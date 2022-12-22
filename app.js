@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const mongoose=require("mongoose");
 const _=require("lodash")
 const app = express();
-mongoose.connect('mongodb+srv://aditya:adirox123@cluster0.0aphwyr.mongodb.net/todolistDB?retryWrites=true&w=majority');
+mongoose.connect(mongodb+srv://aditya:adirox123@cluster0.v7fbpph.mongodb.net/todolistDB?retryWrites=true&w=majority);
 const itemSchema=new mongoose.Schema({
     name:String
 })
